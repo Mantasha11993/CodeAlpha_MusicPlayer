@@ -11,7 +11,7 @@ A modern and responsive music player built using HTML, CSS, and JavaScript. It s
 - Album cover display
 - Responsive design
 - Modern UI
-- Supports 12 songs (English & Hindi)
+- Supports 10 songs (English & Hindi)
 
 ## 🛠️ Technologies Used
 - HTML5
