@@ -20,9 +20,9 @@ A modern and responsive music player built using HTML, CSS, and JavaScript. It s
 
 ## 📂 Project Structure
 Music-Player/
-│── index3.html
-│── style3.css
-│── script3.js
+│── index.html
+│── style.css
+│── script.js
 │── README.md
 │── Music files (.mp3)
 │── Album cover images (.jpg)
