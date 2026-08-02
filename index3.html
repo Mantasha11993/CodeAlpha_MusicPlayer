@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>EchoBeat ⭐</title>
+
+<link rel="stylesheet" href="style3.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Animated Background -->
+
+<div class="bg-animation">
+
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+<!-- HEADER -->
+
+<header>
+
+<div class="logo">
+
+<i class="fa-solid fa-headphones"></i>
+
+<h2>EchoBeat ⭐</h2>
+
+</div>
+
+<div class="social-icons">
+
+<a href="https://github.com/ShaikhMantasha786" target="_blank">
+
+<i class="fab fa-github"></i>
+
+</a>
+
+<a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">
+
+<i class="fab fa-linkedin"></i>
+
+</a>
+
+</div>
+
+</header>
+
+<!-- MAIN -->
+
+<section class="container">
+
+<!-- PLAYER -->
+
+<div class="player">
+
+<div class="top-actions">
+
+<button id="themeBtn">
+
+<i class="fa-solid fa-moon"></i>
+
+</button>
+
+<button id="favoriteBtn">
+
+<i class="fa-regular fa-heart"></i>
+
+</button>
+
+</div>
+
+<div class="album">
+
+<img src="cover1.jpg" id="cover">
+
+<div class="glow"></div>
+
+</div>
+
+<h2 id="title">
+
+Believer
+
+</h2>
+
+<p id="artist">
+
+Imagine Dragons
+
+</p>
+
+<!-- SEARCH -->
+
+<div class="search-box">
+
+<i class="fa-solid fa-search"></i>
+
+<input
+type="text"
+id="searchSong"
+placeholder="Search Songs...">
+
+</div>
+
+<!-- PROGRESS -->
+
+<div class="progress-area">
+
+<span id="current">
+
+0:00
+
+</span>
+
+<input
+type="range"
+id="progress"
+min="0"
+max="100"
+value="0">
+
+<span id="duration">
+
+0:00
+
+</span>
+
+</div>
+
+<!-- CONTROLS -->
+
+<div class="controls">
+
+<button id="shuffle">
+
+<i class="fa-solid fa-shuffle"></i>
+
+</button>
+
+<button id="prev">
+
+<i class="fa-solid fa-backward"></i>
+
+</button>
+
+<button id="play" class="play-btn">
+
+<i class="fa-solid fa-play"></i>
+
+</button>
+
+<button id="next">
+
+<i class="fa-solid fa-forward"></i>
+
+</button>
+
+<button id="repeat">
+
+<i class="fa-solid fa-repeat"></i>
+
+</button>
+
+</div>
+
+<!-- VOLUME -->
+
+<div class="volume">
+
+<i class="fa-solid fa-volume-high"></i>
+
+<input
+type="range"
+id="volume"
+min="0"
+max="100"
+value="80">
+
+</div>
+
+<!-- VISUALIZER -->
+
+<div class="equalizer">
+
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+</div>
+
+<!-- PLAYLIST -->
+
+<div class="playlist">
+
+<h2>
+
+<i class="fa-solid fa-music"></i>
+
+Playlist
+
+</h2>
+
+<ul id="playlist">
+
+<li class="active" data-index="0">
+
+<img src="cover1.jpg">
+
+<div>
+
+<h3>Believer</h3>
+
+<p>Imagine Dragons</p>
+
+</div>
+
+<span>3:24</span>
+
+</li>
+
+<li data-index="1">
+
+<img src="cover2.jpg">
+
+<div>
+
+<h3>Shape Of You</h3>
+
+<p>Ed Sheeran</p>
+
+</div>
+
+<span>4:02</span>
+
+</li>
+
+<li data-index="2">
+
+<img src="cover3.jpg">
+
+<div>
+
+<h3>Faded</h3>
+
+<p>Alan Walker</p>
+
+</div>
+
+<span>3:32</span>
+
+</li>
+
+<li data-index="3">
+
+<img src="cover4.jpg">
+
+<div>
+
+<h3>Kesariya</h3>
+
+<p>Arijit Singh</p>
+
+</div>
+
+<span>4:28</span>
+
+</li>
+
+<li data-index="4">
+
+<img src="cover5.jpg">
+
+<div>
+
+<h3>Apna Bana Le</h3>
+
+<p>Arijit Singh</p>
+
+</div>
+
+<span>4:21</span>
+
+</li>
+<li data-index="5">
+
+    <img src="cover6.jpg">
+
+    <div>
+
+        <h3>Tum Hi Ho</h3>
+
+        <p>Arijit Singh</p>
+
+    </div>
+
+    <span>4:23</span>
+
+</li>
+
+<li data-index="6">
+
+    <img src="cover7.jpg">
+
+    <div>
+
+        <h3>Raataan Lambiyan</h3>
+
+        <p>Jubin Nautiyal</p>
+
+    </div>
+
+    <span>3:50</span>
+
+</li>
+
+<li data-index="7">
+
+    <img src="cover8.jpg">
+
+    <div>
+
+        <h3>Heeriye</h3>
+
+        <p>Arijit Singh & Jasleen Royal</p>
+
+    </div>
+
+    <span>3:14</span>
+
+</li>
+
+<li data-index="8">
+
+    <img src="cover9.jpg">
+
+    <div>
+
+        <h3>Maan Meri Jaan</h3>
+
+        <p>King</p>
+
+    </div>
+
+    <span>3:15</span>
+
+</li>
+
+<li data-index="9">
+
+    <img src="cover10.jpg">
+
+    <div>
+
+        <h3>Chaleya</h3>
+
+        <p>Arijit Singh & Shilpa Rao</p>
+
+    </div>
+
+    <span>3:20</span>
+
+</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<!-- Lyrics Section -->
+
+<section class="lyrics-section">
+
+    <h2>
+
+        <i class="fa-solid fa-microphone-lines"></i>
+
+        Lyrics
+
+    </h2>
+
+    <div id="lyrics">
+
+        Select a song to display lyrics.
+
+    </div>
+
+</section>
+
+<!-- Mini Player -->
+
+<div class="mini-player">
+
+    <img src="cover1.jpg" id="miniCover">
+
+    <div class="mini-info">
+
+        <h4 id="miniTitle">
+
+            Believer
+
+        </h4>
+
+        <p id="miniArtist">
+
+            Imagine Dragons
+
+        </p>
+
+    </div>
+
+    <button id="miniPlay">
+
+        <i class="fa-solid fa-play"></i>
+
+    </button>
+
+</div>
+
+<!-- Toast Notification -->
+
+<div id="toast"></div>
+
+<!-- Footer -->
+
+<footer>
+
+    <p>
+
+        Designed by
+
+        <strong>Mantasha Shaikh</strong>
+
+        |
+
+        CodeAlpha Task 4
+
+    </p>
+
+</footer>
+
+<!-- Audio -->
+
+<audio id="audio"></audio>
+
+<!-- JavaScript -->
+
+<script src="script3.js"></script>
+
+</body>
+
+</html>
